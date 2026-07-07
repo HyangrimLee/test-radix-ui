@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    padding: 0 0 1rem 1rem;
+    border-bottom: 1px solid rgba(0,27,55,0.1);
+}
+
+.containerEmpty {
+    padding: 0;
+    border-bottom: none;
+}
+
+.content {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: rgb(25, 31, 40);
+}
+
+.info {
+    margin-top: 0.25rem;
+    font-size: 1.2rem;
+    color:rgb(78, 89, 104);
+}
+
