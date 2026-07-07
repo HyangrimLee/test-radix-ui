@@ -6,7 +6,7 @@ import "@radix-ui/themes/styles.css";
 
 export default function HomeLayout() {
     return (
-        <Theme accentColor="jade">
+        <Theme accentColor="blue">
             <Outlet />
         </Theme>
     );
