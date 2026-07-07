@@ -1,0 +1,27 @@
+/* Popover */
+.PopoverTrigger {
+    border: 1px solid #3182F6;
+    background-color: white;
+    color: #3182F6;
+    padding: 10px 20px;
+	border-radius: 4px;
+}
+
+.PopoverTrigger:hover {
+    border: 1px solid #1B64DA;
+    background-color: #1B64DA;
+    color: white; 
+}
+
+.PopoverContent {
+	border-radius: 10px;
+	padding: 20px;
+	width: 260px;
+	background-color: #3182F6;
+    color: white;
+}
+
+.PopoverArrow {
+	fill: #3182F6;
+}
+/* Popover */
