@@ -1,0 +1,24 @@
+@import "./reset.css";
+
+html,
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer !important;
+}
+
+.contentWrapper {
+  flex: 1;
+  width: 100%;
+  padding: 1rem;
+  background-color: #F9FAFB;
+}
