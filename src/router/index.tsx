@@ -12,6 +12,7 @@ import Card from "@/pages/Theme/Card";
 // Headless
 import HeadlessHome from "@/pages/Headless/Home";
 import PopOver from "@/pages/Headless/PopOver";
+import Animation from "@/pages/Headless/Animation";
 
 export const router = createBrowserRouter([
   {
@@ -32,6 +33,7 @@ export const router = createBrowserRouter([
     children: [
       { path: "/headless", element: <HeadlessHome /> },
       { path: "/headless/popover", element: <PopOver /> },
+      { path: "/headless/animation", element: <Animation /> },
     ],
   },
 ]);

@@ -29,8 +29,9 @@
 }
 
 .listItemLink {
-    color: #2D3748;
+    width: 100%;
 
+    color: #2D3748;
     text-decoration: none;
     font-size: 1.125rem;
 }
@@ -63,3 +64,46 @@
 }
 /* Popover */
 
+/* Animation */
+.PopoverContentAnimation {
+    border-radius: 10px;
+    padding: 20px;
+    width: 260px;
+    background-color: #3182F6;
+    color: white;
+}
+
+/* 열릴 때 애니메이션 */
+.PopoverContentAnimation[data-state="open"] {
+    animation: fadeIn 1000ms ease;
+}
+
+/* 닫힐 때 애니메이션 */
+.PopoverContentAnimation[data-state="closed"] {
+    animation: fadeOut 1000ms ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+/* Animation */
