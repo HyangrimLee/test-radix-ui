@@ -13,6 +13,7 @@ import Card from "@/pages/Theme/Card";
 import HeadlessHome from "@/pages/Headless/Home";
 import PopOver from "@/pages/Headless/PopOver";
 import Animation from "@/pages/Headless/Animation";
+import DialogBox from "@/pages/Headless/DialogBox";
 
 export const router = createBrowserRouter([
   {
@@ -34,6 +35,7 @@ export const router = createBrowserRouter([
       { path: "/headless", element: <HeadlessHome /> },
       { path: "/headless/popover", element: <PopOver /> },
       { path: "/headless/animation", element: <Animation /> },
+      { path: "/headless/dialog", element: <DialogBox /> },
     ],
   },
 ]);
