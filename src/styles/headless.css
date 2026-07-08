@@ -1,3 +1,40 @@
+.listWrap {
+    width: 50%;
+
+    margin: 0;
+    padding: 0;    
+
+    border-radius: 1.25rem;
+    background-color: #BBCBFF;
+
+    list-style: none;
+    list-style-position: inside;
+}
+
+.listWrap:hover {
+    background: #A7BCFF;
+}
+
+.listWrap:last-child {
+    background-color: #FFC7DE;
+}
+
+.listWrap:last-child:hover {
+    background: #FFB4D3;
+}
+
+.listItem {
+    width: 100%;
+    padding: 1rem 1.725rem;
+}
+
+.listItemLink {
+    color: #2D3748;
+
+    text-decoration: none;
+    font-size: 1.125rem;
+}
+
 /* Popover */
 .PopoverTrigger {
     border: 1px solid #3182F6;
@@ -25,3 +62,4 @@
 	fill: #3182F6;
 }
 /* Popover */
+

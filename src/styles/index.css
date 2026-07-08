@@ -22,3 +22,7 @@ button {
   padding: 1rem;
   background-color: #F9FAFB;
 }
+
+.horizontalWrap {
+  display: flex;
+}
