@@ -1,40 +1,53 @@
+/* Custom */
 .listWrap {
     width: 50%;
-
     margin: 0;
     padding: 0;    
-
-    border-radius: 1.25rem;
-    background-color: #BBCBFF;
 
     list-style: none;
     list-style-position: inside;
 }
 
-.listWrap:hover {
-    background: #A7BCFF;
-}
-
-.listWrap:last-child {
-    background-color: #FFC7DE;
-}
-
-.listWrap:last-child:hover {
-    background: #FFB4D3;
-}
-
 .listItem {
     width: 100%;
     padding: 1rem 1.725rem;
+    margin-bottom: 0.5rem;
+
+    border-radius: 1.25rem;
+    /* background-color: #BBCBFF; */
+
+    cursor: pointer;
+}
+
+.listLeft .listItem {
+    background-color: #BBCBFF;
+}
+
+.listLeft .listItem:hover {
+    background: #A7BCFF;
+}
+
+.listRight .listItem {
+    background-color: #FFC7DE;
+}
+
+.listRight .listItem:hover {
+    background: #FFB4D3;
+}
+
+.listItem:last-child {
+    margin-bottom: 0;
 }
 
 .listItemLink {
+    display: inline-block;
     width: 100%;
 
     color: #2D3748;
     text-decoration: none;
     font-size: 1.125rem;
 }
+/* Custom */
 
 /* Popover */
 .PopoverTrigger {
