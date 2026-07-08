@@ -8,6 +8,7 @@ export default function Home() {
         <div className="contentWrapper"  style={{ padding: "2rem 4rem"}}>
           <div className="horizontalWrap" style={{ gap: "1.2rem"}}>
               <ul className="listWrap listLeft">
+                <li className="listItem"><Link className="listItemLink" to="/headless/aspect-ratio">Aspect Ratio</Link></li>
                 <li className="listItem"><Link className="listItemLink" to="/headless/dialog">Dialog</Link></li>
                 <li className="listItem"><Link className="listItemLink" to="/headless/popover">PopOver</Link></li>
               </ul>

@@ -14,6 +14,7 @@ import HeadlessHome from "@/pages/Headless/Home";
 import PopOver from "@/pages/Headless/PopOver";
 import Animation from "@/pages/Headless/Animation";
 import DialogBox from "@/pages/Headless/DialogBox";
+import AspectRatio from "@/pages/Headless/AspectRatio";
 
 export const router = createBrowserRouter([
   {
@@ -36,6 +37,7 @@ export const router = createBrowserRouter([
       { path: "/headless/popover", element: <PopOver /> },
       { path: "/headless/animation", element: <Animation /> },
       { path: "/headless/dialog", element: <DialogBox /> },
+      { path: "/headless/aspect-ratio", element: <AspectRatio /> },
     ],
   },
 ]);
