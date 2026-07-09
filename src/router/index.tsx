@@ -11,11 +11,12 @@ import Card from "@/pages/Theme/Card";
 
 // Headless
 import HeadlessHome from "@/pages/Headless/Home";
-import PopOver from "@/pages/Headless/PopOver";
-import Checkbox from "@/pages/Headless/Checkbox";
-import Animation from "@/pages/Headless/Animation";
-import DialogBox from "@/pages/Headless/DialogBox";
 import AspectRatio from "@/pages/Headless/AspectRatio";
+import Animation from "@/pages/Headless/Animation";
+import Checkbox from "@/pages/Headless/Checkbox";
+import DialogBox from "@/pages/Headless/DialogBox";
+import PopOver from "@/pages/Headless/PopOver";
+import RadioGroupDemo from "@/pages/Headless/RadioGroup";
 
 export const router = createBrowserRouter([
   {
@@ -40,6 +41,7 @@ export const router = createBrowserRouter([
       { path: "/headless/checkbox", element: <Checkbox /> },
       { path: "/headless/dialog", element: <DialogBox /> },
       { path: "/headless/popover", element: <PopOver /> },
+      { path: "/headless/radio-group", element: <RadioGroupDemo /> },
     ],
   },
 ]);
