@@ -18,6 +18,7 @@ import DialogBox from "@/pages/Headless/DialogBox";
 import PopOver from "@/pages/Headless/PopOver";
 import RadioGroupDemo from "@/pages/Headless/RadioGroup";
 import Switch from "@/pages/Headless/Switch";
+import Toast from "@/pages/Headless/Toast";
 
 export const router = createBrowserRouter([
   {
@@ -44,6 +45,7 @@ export const router = createBrowserRouter([
       { path: "/headless/popover", element: <PopOver /> },
       { path: "/headless/radio-group", element: <RadioGroupDemo /> },
       { path: "/headless/switch", element: <Switch /> },
+      { path: "/headless/toast", element: <Toast /> },
     ],
   },
 ]);
