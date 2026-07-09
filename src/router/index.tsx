@@ -12,6 +12,7 @@ import Card from "@/pages/Theme/Card";
 // Headless
 import HeadlessHome from "@/pages/Headless/Home";
 import PopOver from "@/pages/Headless/PopOver";
+import Checkbox from "@/pages/Headless/Checkbox";
 import Animation from "@/pages/Headless/Animation";
 import DialogBox from "@/pages/Headless/DialogBox";
 import AspectRatio from "@/pages/Headless/AspectRatio";
@@ -34,10 +35,11 @@ export const router = createBrowserRouter([
     element: <HeadlessLayout />,
     children: [
       { path: "/headless", element: <HeadlessHome /> },
-      { path: "/headless/popover", element: <PopOver /> },
       { path: "/headless/animation", element: <Animation /> },
-      { path: "/headless/dialog", element: <DialogBox /> },
       { path: "/headless/aspect-ratio", element: <AspectRatio /> },
+      { path: "/headless/checkbox", element: <Checkbox /> },
+      { path: "/headless/dialog", element: <DialogBox /> },
+      { path: "/headless/popover", element: <PopOver /> },
     ],
   },
 ]);
