@@ -1,6 +1,6 @@
 import { useState } from "react";
-import PageTitle from "@/components/PageTitle";
 import { Checkbox } from "radix-ui";
+import PageTitle from "@/components/PageTitle";
 
 export default function CheckboxDemo() {
   const [checked, setChecked] = useState(false);
@@ -12,9 +12,9 @@ export default function CheckboxDemo() {
         <div style={{ display: "flex", alignItems: "center" }}>
             {/* required, disabled 속성 사용 가능 */}
         	<Checkbox.Root id="c1" className="CheckboxRoot" defaultChecked
-                           onCheckedChange={(checked) => {
-                                setChecked(checked === true);
-                                alert(checked === true ? "체크박스가 선택되었습니다." : "체크박스가 선택 해제되었습니다.");
+                           onCheckedChange={(c) => {
+                                setChecked(c === true);
+                                alert(`체크박스가 ${checked ? "선택" : "해제"}되었습니다.`);
                            }}>
                 {/* asChild 속성을 사용하면 Checkbox.Root를 다른 요소로 대체할 수 있습니다. 예를 들어, div 요소를 사용하여 Checkbox.Root를 감싸고 스타일링할 수 있습니다. (기본 span) */}
                 <Checkbox.Indicator className="CheckboxIndicator" asChild>
