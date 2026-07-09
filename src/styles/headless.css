@@ -291,3 +291,40 @@
 	background-color: var(--violet-11);
 }
 /* Radio Group */
+
+/* Switch */
+.SwitchRoot {
+	width: 42px;
+	height: 25px;
+    position: relative;
+	
+    /* 처음 상태에서의 배경색과 테두리 스타일을 설정합니다. */
+    background-color: #ddd;
+	border-radius: 9999px;
+    border: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+	&:focus {
+		/* box-shadow: 0 0 0 2px black; */
+	}
+    /* 활성화 상태에서의 배경색을 설정합니다. */
+	&[data-state="checked"] {
+		background-color: var(--black-a9);
+	}
+}
+
+.SwitchThumb {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border-radius: 9999px;
+	box-shadow: 0 2px 2px var(--black-a7);
+	transition: transform 100ms;
+	transform: translateX(-4px);
+	will-change: transform;
+	&[data-state="checked"] {
+		transform: translateX(16px);
+	}
+}
+/* Switch */

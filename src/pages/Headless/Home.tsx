@@ -13,7 +13,7 @@ export default function Home() {
                 <li className="listItem"><Link className="listItemLink" to="/headless/dialog">Dialog</Link></li>
                 <li className="listItem"><Link className="listItemLink" to="/headless/popover">PopOver</Link></li>
                 <li className="listItem"><Link className="listItemLink" to="/headless/radio-group">Radio Group</Link></li>
-
+                <li className="listItem"><Link className="listItemLink" to="/headless/switch">Switch</Link></li>
               </ul>
               <ul className="listWrap listRight">
                 <li className="listItem"><Link className="listItemLink" to="/headless/animation">Animation</Link></li>
