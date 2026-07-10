@@ -8,6 +8,7 @@ import Home from "@/pages/Home";
 // Theme
 import ThemeHome from "@/pages/Theme/Home";
 import Card from "@/pages/Theme/Card";
+import Spinner from "@/pages/Theme/Spinner";
 
 // Headless
 import HeadlessHome from "@/pages/Headless/Home";
@@ -35,6 +36,7 @@ export const router = createBrowserRouter([
     children: [
       { path: "/theme", element: <ThemeHome /> },
       { path: "/theme/card", element: <Card /> },
+      { path: "/theme/spinner", element: <Spinner /> },
     ],
   },
   {
