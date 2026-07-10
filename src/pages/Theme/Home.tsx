@@ -43,4 +43,9 @@ const items:  { title: string; description: string; href: string; }[] = [
     description: "사용자의 프로필 사진이나 아바타를 표시하는 컴포넌트입니다.",
     href: "/theme/avatar",
   },
+  {
+    title: "Kbd",
+    description: "키보드 입력을 나타내는 컴포넌트입니다.",
+    href: "/theme/kbd",
+  },
 ];

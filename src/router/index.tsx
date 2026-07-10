@@ -7,7 +7,9 @@ import Home from "@/pages/Home";
 
 // Theme
 import ThemeHome from "@/pages/Theme/Home";
+import Avatar from "@/pages/Theme/Avatar";
 import Card from "@/pages/Theme/Card";
+import Kbd from "@/pages/Theme/Kbd";
 import Spinner from "@/pages/Theme/Spinner";
 
 // Headless
@@ -35,7 +37,9 @@ export const router = createBrowserRouter([
     element: <ThemeLayout />,
     children: [
       { path: "/theme", element: <ThemeHome /> },
+      { path: "/theme/avatar", element: <Avatar /> },
       { path: "/theme/card", element: <Card /> },
+      { path: "/theme/kbd", element: <Kbd /> },
       { path: "/theme/spinner", element: <Spinner /> },
     ],
   },
