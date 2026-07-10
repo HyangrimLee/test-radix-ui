@@ -1,0 +1,28 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;   
+}
+
+.Item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgb(107, 114, 128);
+}
+
+.Link {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #3182f6;
+}
+
+.Number {
+    
+}
+
+.Bullet {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
