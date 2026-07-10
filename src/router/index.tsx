@@ -20,11 +20,14 @@ import RadioGroupDemo from "@/pages/Headless/RadioGroup";
 import Switch from "@/pages/Headless/Switch";
 import Toast from "@/pages/Headless/Toast";
 
+import Documents from "@/pages/Documents";
+
 export const router = createBrowserRouter([
   {
     element: <HomeLayout />,
     children: [
       { path: "/", element: <Home /> },
+      { path: "/documents", element: <Documents /> }
     ],
   },
   {

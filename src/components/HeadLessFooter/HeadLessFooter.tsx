@@ -5,8 +5,10 @@ export default function HeadLessFooter() {
   return (
     <div className={styles.container}>
         <div className={styles.item}><Link className={styles.link} to="/">Home</Link></div>
+        <div className={styles.item}><Link className={styles.link} to="/documents">Documents</Link></div>
         <div className={styles.item}><Link className={styles.link} to="/theme">Themes</Link></div>
         <div className={styles.item}><Link className={styles.link} to="/headless">Headless</Link></div>
+        
     </div>
   )
 }
