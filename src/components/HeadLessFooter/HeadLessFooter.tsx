@@ -8,7 +8,6 @@ export default function HeadLessFooter() {
         <div className={styles.item}><Link className={styles.link} to="/documents">Documents</Link></div>
         <div className={styles.item}><Link className={styles.link} to="/theme">Themes</Link></div>
         <div className={styles.item}><Link className={styles.link} to="/headless">Headless</Link></div>
-        
     </div>
   )
 }
