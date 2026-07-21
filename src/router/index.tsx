@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import HomeLayout from "@/layouts/HomeLayout";
 import ThemeLayout from "@/layouts/ThemeLayout";
 import HeadlessLayout from "@/layouts/HeadLessLayout";
+import StibeeLayout from "@/layouts/StibeeLayout";
 import Home from "@/pages/Home";
 
 // Theme
@@ -22,6 +23,9 @@ import PopOver from "@/pages/Headless/PopOver";
 import RadioGroupDemo from "@/pages/Headless/RadioGroup";
 import Switch from "@/pages/Headless/Switch";
 import Toast from "@/pages/Headless/Toast";
+
+// 스티비
+import StibeeEdit from "@/pages/Stibee/Editor";
 
 import Documents from "@/pages/Documents";
 
@@ -57,4 +61,10 @@ export const router = createBrowserRouter([
       { path: "/headless/toast", element: <Toast /> },
     ],
   },
+  {
+    element: <StibeeLayout />,
+    children: [
+      { path: "/stibee", element: <StibeeEdit /> }
+    ]
+  }
 ]);

@@ -13,6 +13,10 @@ export default function Home() {
       <Button asChild variant="soft">
         <Link to="/headless">radix-ui headless</Link>
       </Button>
+
+      <Button asChild variant="outline">
+        <Link to="/stibee">스티비 이메일 COPY</Link>
+      </Button>
     </Flex>
   );
 }

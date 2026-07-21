@@ -6,6 +6,8 @@ export default function Documents() {
     { content: "Radix", url: "https://www.radix-ui.com/?utm_source=chatgpt.com", target: "_blank" },
     { content: "Radix - Themes", url: "https://www.radix-ui.com/themes/docs/overview/getting-started", target: "_blank" },
     { content: "Radix - Primitives (Headless)", url: "https://www.radix-ui.com/primitives/docs/overview/introduction", target: "_blank" },
+    // { content: "Radix - Colors", url: "https://www.radix-ui.com/colors/docs/overview/getting-started", target: "_blank" },
+    { content: "Radix - Icons", url: "https://www.radix-ui.com/icons", target: "_blank" },
     { content: "TDS - Toss 디자인 시스템", url: "https://tossmini-docs.toss.im/tds-mobile/", target: "_blank" },
   ];
   return (
